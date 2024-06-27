@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General  -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#352D2D</color>
+    <color name="blue_baby">#B1D5CC</color>
+    <color name="blue_light">#F9F9F9</color>
+    <color name="blue_navy">#4052B3</color>
+    <color name="turquoise">#67C4AD</color>
+
+    <!-- Overlays -->
+    <color name="white_alpha">#F7F9F8</color>
+    <color name="gray_light">#696770</color>
+
+    <!-- Special -->
+    <color name="red_light">#F6E6E6</color>
+</resources>

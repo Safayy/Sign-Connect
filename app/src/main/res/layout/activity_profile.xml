@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:text="@string/logout"
+        android:textColor="@color/blue_navy"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitleProfile"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleProfile" />
+
+    <TextView
+        android:id="@+id/tvTitleProfile"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="end"
+        android:text="Safa Yousif"
+        android:textColor="@color/turquoise"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivProfile"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ivProfile"
+        app:layout_constraintTop_toTopOf="@+id/ivProfile"
+        app:layout_constraintVertical_bias="0.84000003"
+        app:layout_wrapBehaviorInParent="horizontal_only" />
+
+    <TextView
+        android:id="@+id/tvTokensPrompt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:text="@string/prompt_tokens"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_placeholder" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogout">
+
+        <TextView
+            android:id="@+id/tvTokens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tokens"
+            android:textColor="@color/black"
+            android:textSize="34sp"/>
+
+        <EditText
+            android:id="@+id/etTokens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gray"
+            android:editable="false"
+            android:ems="5"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="number"
+            android:paddingVertical="10dp"
+            android:screenReaderFocusable="false" /> <!-- Adjust this value as needed for the desired gap -->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

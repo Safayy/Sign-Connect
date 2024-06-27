@@ -1,0 +1,108 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">SignConnect</string>
+    <string name="app_name_space">Sign Connect</string>
+    <string name="app_phrase">Communicate. Connect. Converge.</string>
+
+    <!-- Language Spinners -->
+    <string-array name="lang_sign_abbreviated">
+        <item>ASL</item>
+        <item>IPSL</item>
+        <item>BISINDO</item>
+        <item>RSL</item>
+        <item>LSB</item>
+        <item>LSE</item>
+    </string-array>
+    <string-array name="lang_spoken">
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <!-- Login Register -->
+    <string name="title_login">Login</string>
+    <string name="title_signup">Register</string>
+    <string name="login_prompt">I already have an account!</string>
+    <string name="signup_prompt">Don’t have an account?</string>
+    <string name="login_prompt_answer">Login instead!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Disclaimer -->
+    <string name="title_disclaimer">Disclaimer</string>
+    <string name="disclaimer_text">Sign Connect collects and stores user login information on the cloud. Some of this data, such as feedback, corrections, and user interactions, may be utilized to enhance the models accuracy and efficiency in translating sign language. While this data collection is crucial for improving the apps functionality, safeguarding user privacy and data security remain top priority.</string>
+    <string name="learn_more">Learn More at:</string>
+    <string name="link_termofuse">www.Safa.dev/SignConnect/Terms</string>
+    <string name="tos_agree">I agree to the terms and conditions</string>
+    <string name="tos_datausage">I agree that my data will be used to improve the translation</string>
+    <string name="accept">Accept</string>
+
+    <!-- Language Selection -->
+    <string name="choose_signed">Choose a signed language</string>
+    <string name="choose_spoken">Choose a spoken language</string>
+    <string name="choose_prompt">Don\'t worry. You can change this later.</string>
+    <string name="translation_history">Translation History</string>
+    <string name="what_are_tokens">What are Tokens?</string>
+    <string name="translate">Translate</string>
+
+    <string-array name="lang_sign_names">
+        <item>American Sign Language(ASL)</item>
+        <item>Indo-Pakistani Sign Language (IPSL)</item>
+        <item>Indonesian Sign Language (BISINDO)</item>
+        <item>Russian Sign Language (RSL)</item>
+        <item>Brazilian Sign Language(LSB LGB LSCB)</item>
+        <item>Spanish Sign Language (LSE)</item>
+    </string-array>
+    <integer-array name="lang_sign_imgs">
+        <item>@drawable/lang_flag_101</item>
+        <item>@drawable/lang_flag_102</item>
+        <item>@drawable/lang_flag_103</item>
+        <item>@drawable/lang_flag_104</item>
+        <item>@drawable/lang_flag_105</item>
+        <item>@drawable/lang_flag_106</item>
+    </integer-array>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Profile -->
+    <string name="logout">Logout</string>
+    <string name="tokens">Tokens</string>
+    <string name="prompt_tokens">
+        Help improve accuracy by rating and correcting translations. You gain tokens!\n\nTokens are spent on each translation.
+    </string>
+
+    <!-- TensorFlow Configurations -->
+    <integer name="tf_od_api_input_size">320</integer>
+    <string name="tf_od_api_is_quantized">false</string>
+    <string name="tf_od_api_model_file">model.tflite</string>
+    <string name="tf_od_api_labels_file">label.txt</string>
+
+    <!-- Main Activity -->
+    <string name="prompt_tokens_short">
+        You have %1$d tokens
+    </string>
+    <string name="greet_user">
+        Hello, %1$s!
+    </string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- Database -->
+
+
+</resources>

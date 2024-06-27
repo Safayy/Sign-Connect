@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220453222549",
+    "project_id": "artful-chiller-305217",
+    "storage_bucket": "artful-chiller-305217.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220453222549:android:bd7a3e3cbcfe893511839c",
+        "android_client_info": {
+          "package_name": "com.safa.signconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDscHc1MFIGthfOGzklSn4RdoALuVDMWpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
